@@ -159,8 +159,8 @@ public class BikeTest {
       int okadaCurrentSpeed = okada.getCurrentSpeed();
       assertEquals(44,  okadaCurrentSpeed);
       okada.deccelerate(1);
-      int okadaDecceleration = okada.getDecceleration();
-      assertEquals(40,  okadaDecceleration);
+      //int okadaDecceleration = okada.getDecceleration();
+      assertEquals(40,  okada.getDecceleration());
 
 
    }
